@@ -1,0 +1,15 @@
+{
+  "name": "备孕 · 生产倒排时间表",
+  "short_name": "倒排时间表",
+  "description": "备孕、孕期、生产与产后 100 天的倒计时待办和阶段知识。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbf7f3",
+  "theme_color": "#fbf7f3",
+  "icons": [
+    { "src": "icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

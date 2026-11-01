@@ -1,0 +1,221 @@
+{
+  "version": 1,
+  "meta": {
+    "updatedAt": "2026-11-01",
+    "timezone": "Asia/Shanghai",
+    "convention": "lmp = conception - 14d; dueDate = lmp + 280d; 规则单位 D=天 W=周 M=日历月"
+  },
+  "anchor": {
+    "type": "conception",
+    "date": "2027-06-30",
+    "note": "用户设定的怀孕日（受孕日）。换算：末次月经 LMP≈2027-06-16，预产期≈2028-03-22"
+  },
+  "items": [
+    {
+      "id": "itm-0001",
+      "title": "开始增肌/体能训练",
+      "rule": "lmp-9M",
+      "note": "孕前9个月起规律训练：核心+下肢力量为主，每周3次；为孕期承重和分娩储备体能",
+      "remind": { "enabled": true, "daysBefore": 1, "time": "09:00" },
+      "source": "kimi",
+      "status": "active",
+      "milestone": false,
+      "createdAt": "2026-10-17",
+      "updatedAt": "2026-10-17"
+    },
+    {
+      "id": "itm-0002",
+      "title": "开始补钙",
+      "rule": "lmp-6M",
+      "note": "每日钙摄入约1000mg（奶制品+补充剂），同时注意维生素D",
+      "remind": { "enabled": true, "daysBefore": 1, "time": "09:00" },
+      "source": "kimi",
+      "status": "active",
+      "milestone": false,
+      "createdAt": "2026-10-17",
+      "updatedAt": "2026-10-17"
+    },
+    {
+      "id": "itm-0003",
+      "title": "孕前检查",
+      "rule": "lmp-3M",
+      "note": "TORCH、甲状腺功能、口腔检查、妇科B超；疫苗抗体（风疹/乙肝）不足时提前补种",
+      "remind": { "enabled": true, "daysBefore": 7, "time": "09:00" },
+      "source": "kimi",
+      "status": "active",
+      "milestone": false,
+      "createdAt": "2026-10-17",
+      "updatedAt": "2026-10-17"
+    },
+    {
+      "id": "itm-0004",
+      "title": "开始补叶酸 400μg/天",
+      "rule": "lmp-3M",
+      "note": "每日400μg，预防胎儿神经管畸形；社区医院可免费领取",
+      "remind": { "enabled": true, "daysBefore": 1, "time": "09:00" },
+      "source": "kimi",
+      "status": "active",
+      "milestone": false,
+      "createdAt": "2026-10-17",
+      "updatedAt": "2026-10-17"
+    },
+    {
+      "id": "itm-0005",
+      "title": "孕期忌口：禁酒、禁食生食",
+      "rule": "lmp+0W..due+0W",
+      "note": "全程禁酒；避免生鱼片/未熟蛋/未巴氏消毒乳制品（李斯特菌风险）；咖啡因每日<200mg",
+      "remind": { "enabled": false },
+      "source": "kimi",
+      "status": "active",
+      "milestone": false,
+      "createdAt": "2026-10-17",
+      "updatedAt": "2026-10-17"
+    },
+    {
+      "id": "itm-0006",
+      "title": "社区建档 + 首次产检预约",
+      "rule": "lmp+8W",
+      "note": "孕6-12周间完成建档；带身份证、医保卡、既往检查报告",
+      "remind": { "enabled": true, "daysBefore": 3, "time": "09:00" },
+      "source": "kimi",
+      "status": "active",
+      "milestone": false,
+      "createdAt": "2026-10-17",
+      "updatedAt": "2026-10-17"
+    },
+    {
+      "id": "itm-0007",
+      "title": "NT 检查（孕11-13+6周）",
+      "rule": "lmp+12W",
+      "note": "早期排畸超声，需提前预约；超过孕14周无法做",
+      "remind": { "enabled": true, "daysBefore": 7, "time": "09:00" },
+      "source": "kimi",
+      "status": "active",
+      "milestone": true,
+      "createdAt": "2026-10-17",
+      "updatedAt": "2026-10-17"
+    },
+    {
+      "id": "itm-0008",
+      "title": "开始盆底肌锻炼（凯格尔运动）",
+      "rule": "con+12W",
+      "note": "孕12周（受孕）起每日3组，每组收缩10次×10秒；经医生确认无禁忌后开始",
+      "remind": { "enabled": true, "daysBefore": 1, "time": "09:00" },
+      "source": "kimi",
+      "status": "active",
+      "milestone": false,
+      "createdAt": "2026-10-17",
+      "updatedAt": "2026-10-17"
+    },
+    {
+      "id": "itm-0009",
+      "title": "大排畸（系统超声，孕20-24周）",
+      "rule": "lmp+22W",
+      "note": "最重要的排畸检查，提前1个月预约",
+      "remind": { "enabled": true, "daysBefore": 7, "time": "09:00" },
+      "source": "kimi",
+      "status": "active",
+      "milestone": true,
+      "createdAt": "2026-10-17",
+      "updatedAt": "2026-10-17"
+    },
+    {
+      "id": "itm-0010",
+      "title": "糖耐量检查 OGTT（孕24-28周）",
+      "rule": "lmp+26W",
+      "note": "空腹8小时以上，前一晚22点后禁食",
+      "remind": { "enabled": true, "daysBefore": 3, "time": "09:00" },
+      "source": "kimi",
+      "status": "active",
+      "milestone": false,
+      "createdAt": "2026-10-17",
+      "updatedAt": "2026-10-17"
+    },
+    {
+      "id": "itm-0011",
+      "title": "进入孕晚期：开始数胎动",
+      "rule": "lmp+28W",
+      "note": "每日早中晚各数1小时胎动，异常（2小时<10次）及时就医；产检转为每2周一次",
+      "remind": { "enabled": true, "daysBefore": 1, "time": "09:00" },
+      "source": "kimi",
+      "status": "active",
+      "milestone": true,
+      "createdAt": "2026-10-17",
+      "updatedAt": "2026-10-17"
+    },
+    {
+      "id": "itm-0012",
+      "title": "准备待产包 + 分娩计划",
+      "rule": "due-4W",
+      "note": "证件包/妈妈用品/宝宝用品；确认分娩医院路线、陪产安排、无痛分娩意愿",
+      "remind": { "enabled": true, "daysBefore": 7, "time": "09:00" },
+      "source": "kimi",
+      "status": "active",
+      "milestone": false,
+      "createdAt": "2026-10-17",
+      "updatedAt": "2026-10-17"
+    },
+    {
+      "id": "itm-0013",
+      "title": "足月：随时可能发动",
+      "rule": "lmp+37W",
+      "note": "留意临产征兆：规律宫缩、见红、破水（破水立即平躺就医）；产检每周一次",
+      "remind": { "enabled": true, "daysBefore": 1, "time": "09:00" },
+      "source": "kimi",
+      "status": "active",
+      "milestone": true,
+      "createdAt": "2026-10-17",
+      "updatedAt": "2026-10-17"
+    },
+    {
+      "id": "itm-0014",
+      "title": "预产期",
+      "rule": "due+0W",
+      "note": "预产期当天分娩概率约5%，孕41周未发动需入院催产",
+      "remind": { "enabled": true, "daysBefore": 3, "time": "09:00" },
+      "source": "kimi",
+      "status": "active",
+      "milestone": true,
+      "createdAt": "2026-10-17",
+      "updatedAt": "2026-10-17"
+    },
+    {
+      "id": "itm-0015",
+      "title": "吃DHA",
+      "rule": "lmp-6M",
+      "note": "每日补充200mg（测试）",
+      "remind": { "enabled": true, "daysBefore": 1, "time": "09:00" },
+      "source": "phone",
+      "status": "active",
+      "milestone": false,
+      "createdAt": "2026-11-01",
+      "updatedAt": "2026-11-01"
+    }
+  ],
+  "knowledge": {
+    "w1_3": {
+      "mother": [
+        "孕 1–2 周通常尚未受孕，多数妈妈没有明显的怀孕感觉。",
+        "孕 3 周前后可能出现轻微疲劳、乳房敏感或少量着床出血，也可能完全没有症状；不能仅凭症状判断是否怀孕。"
+      ],
+      "baby": [
+        "孕周从末次月经第一天起算，孕 1–2 周身体主要在准备排卵。",
+        "通常在孕 2 周末至孕 3 周前后发生受精，随后受精卵分裂并逐渐向子宫移动、着床。"
+      ],
+      "nutrition": [
+        "一般建议每日补充叶酸 400μg，并持续均衡饮食；特殊剂量需由医生评估。",
+        "保证主食、优质蛋白、蔬菜水果和适量奶类摄入，此阶段不需要刻意“一人吃两人份”。"
+      ],
+      "avoid": [
+        "不饮酒、不吸烟，并尽量远离二手烟。",
+        "不要自行使用可能致畸的药物或随意停用长期处方药；用药问题先咨询医生或药师。",
+        "避免生食或未熟的高风险食物，以及来源不明的保健品。"
+      ],
+      "notes": [
+        "保持规律作息和适度的日常活动，不必因备孕或可能怀孕而长期卧床。",
+        "若出现剧烈腹痛、大量阴道出血或其他明显不适，应及时就医。",
+        "验孕结果受检测时间影响；如月经推迟或结果不明确，可按说明复测或就医确认。"
+      ]
+    }
+  }
+}
