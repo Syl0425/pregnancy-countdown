@@ -31,7 +31,7 @@ for attempt in range(18):
             remote=json.load(r)
         with urllib.request.urlopen(public+"/calendar.ics?check="+str(time.time()),timeout=20) as r:
             cal=r.read().decode("utf-8")
-        if remote.get("meta",{}).get("updatedAt")==local.get("meta",{}).get("updatedAt") and len(remote.get("items",[]))==len(local.get("items",[])) and "BEGIN:VCALENDAR" in cal:
+        if remote==local and "BEGIN:VCALENDAR" in cal:
             print("公开页面、主数据和日历文件已更新："+public+"/")
             break
     except Exception as e:
