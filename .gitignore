@@ -1,3 +1,10 @@
 node_modules/
 .deploy/
 .DS_Store
+
+# 内部三层日志只留本机：本仓库是公开的 GitHub Pages 源，不进公网（CTL-D-002）
+dev_log/
+
+# 子项目公约与 TODO 属工作区内部文件，只留本机不进公开仓库（CTL-D-003）
+AGENTS.md
+TODO.md
