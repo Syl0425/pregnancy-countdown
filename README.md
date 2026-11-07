@@ -4,7 +4,7 @@
 
 ## 固定入口与发布状态
 
-- 项目目录：`/Users/panshiyu/Desktop/生活空间/01- 备孕倒排时间表`
+- 项目目录：`/Users/panshiyu/Desktop/Kimi workspace/备孕倒排时间表`（2026-11-07 自生活空间迁入，CTL-D-002）
 - Kimi 本机预览：`http://localhost:7100/`，仅供当前 Mac 使用。
 - 公开页面：`https://syl0425.github.io/pregnancy-countdown/`
 - iPhone 日历订阅：`webcal://syl0425.github.io/pregnancy-countdown/calendar.ics`
